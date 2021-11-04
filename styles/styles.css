@@ -100,12 +100,14 @@ p{
 }
 
 .my-4{
-    margin-top: 0;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+
 }
 
 
 /* .content-area{
-    background-image: url(../Assets/stars.jpg);
+    background-color: #5800b5;
     
 } */
 
