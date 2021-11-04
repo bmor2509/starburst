@@ -1,0 +1,173 @@
+html{
+
+    overflow-x: hidden; 
+}
+
+body{
+    font-family: 'Luckiest Guy', cursive;
+    
+    
+}
+.nav-custom{
+    background-color: #01E0D8;
+}
+
+p{
+    font-family: 'Open Sans', 'Verdana';
+}
+
+
+.btn-custom{
+    background-color: #180031;
+    border-color: #8A20C8;
+    color: white;
+    
+}
+
+.btn-custom:hover{
+    background-color: #8A20C8;
+    border-color: white;
+    color: white;
+}
+
+.btn-custom:focus{
+    background-color: #8A20C8;
+    color: white;
+    box-shadow: none;
+    outline: none;
+}
+
+
+.btn-outline-custom{
+    color:white;
+    border-color: #8A20C8;
+}
+
+.btn-outline-custom:hover{
+    background-color: #8A20C8;
+    border-color: #8A20C8;
+    color: white;
+}
+
+.btn-outline-custom:focus{
+    background-color: #8A20C8;
+    color: white;
+    box-shadow: none;
+    outline: none;
+
+}
+
+.main-offer{
+    padding:  0;
+    text-align: center;
+    
+}
+
+.offer-col{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.offer{
+    color: white;
+}
+
+.offer-text{
+    color:#8A20C8;
+    font-weight: 400;
+    padding-bottom: 10px;
+    -webkit-text-stroke: 0.11px black;
+}
+
+.offer-rule{
+    border: 1px solid #8A20C8;
+}
+
+
+
+.first-col{
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    
+}
+
+
+.main-footer{
+    background-color: #180031;
+    padding-top: 0;
+    margin-top:0;
+}
+
+.my-4{
+    margin-top: 0;
+}
+
+
+/* .content-area{
+    background-image: url(../Assets/stars.jpg);
+    
+} */
+
+
+.pulse {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+
+  }
+  
+
+  
+  /**
+   * The "shine" element
+   */
+  
+  .pulse:after {
+    
+    animation: shine 4s ease-out infinite;
+    animation-fill-mode: forwards;  
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 400%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right, 
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  
+  
+  .pulse:active:after {
+    opacity: 0;
+  }
+  
+  @keyframes shine{
+    10% {
+      opacity: 1;
+      top: -30%;
+      left: -30%;
+      transition-property: left, top, opacity;
+      transition-duration: 1s, 1s, 0.25s;
+      transition-timing-function: ease;
+    }
+    100% {
+      opacity: 0;
+      top: -30%;
+      left: -30%;
+      transition-property: left, top, opacity;
+    }
+  }
